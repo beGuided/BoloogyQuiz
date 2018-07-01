@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:scaleType="centerCrop">
+
+        <!--instruction-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-50dp"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/for_quiz_app" />
+
+        <EditText
+            android:id="@+id/your_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:hint="type in your name" />
+        <!--first question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.The type of logical thinking that uses related observations of arrive at a general conclusion is called ________. "
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--android:background="#ff0">-->
+            <!--android:orientation="vertical">-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deductive reasonng"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The scientific method"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hypothensis-base science"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/answer_no_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Inductive reasoning"
+                android:textSize="12sp" />
+        </RadioGroup>
+        <!--second question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. The process of ________ helps to ensure that a scientist research is original, significant, logical, and through.. "
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ff00">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The scientific method"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="publication"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/answer_no_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peer review"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab review"
+                android:textSize="12sp" />
+        </RadioGroup>
+        <!--third question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.When in a phylogenit tree would ypu expect to find the orginism that has evolved most recently? "
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff00">
+
+            <RadioButton
+                android:id="@+id/answer_no_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At he branch tip "
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.At the base"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.At the nodes"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Within the branches"
+                android:textSize="12sp" />
+        </RadioGroup>
+        <!--forth question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.The building bloocks of nucleic acid are______. "
+            android:textSize="14sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffA500">
+
+            <RadioButton
+                android:id="@+id/answer_no_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Nucleotides"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peptides"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugars"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nitrogenous base"
+                android:textSize="12sp" />
+        </RadioGroup>
+        <!--fifth question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.A nucleotide of DNA may contain ________."
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffff">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deoxyribose, uracil, and a phosphate group"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/answer_no_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deoxyribose,thymine, and a phosphate group"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ribose,thymine, and a phosphate group"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deoxyribose,thymine, "
+                android:textSize="12sp" />
+        </RadioGroup>
+        <!--sixth question begins here-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.Plant cell wall contains which of the following in abundance?"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".Glycogen"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/answer_no_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cellulose"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starch"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lactose"
+                android:textSize="12sp" />
+        </RadioGroup>
+    <!--viewgroup for bth reset and view scor button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/view_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="viewResult"
+                android:text="view result" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="reset"
+                android:text="reset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/display_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</ScrollView>
